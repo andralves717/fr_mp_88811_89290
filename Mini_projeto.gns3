@@ -919,37 +919,6 @@
             },
             {
                 "filters": {},
-                "link_id": "ef2f9fda-4351-444b-a2d8-9963a97c56c4",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e7",
-                            "x": -2,
-                            "y": 27
-                        },
-                        "node_id": "b6952c12-65de-4311-9ac0-a3326c15cb4b",
-                        "port_number": 7
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 70,
-                            "y": 17
-                        },
-                        "node_id": "21ab7cb4-37cd-4410-87ed-7f299e3daf99",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "63044519-0f1e-4763-8037-9732f6fe7125",
                 "nodes": [
                     {
@@ -1977,35 +1946,6 @@
                 "width": 66,
                 "x": 826,
                 "y": -125,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5011,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "DesignVlan",
-                    "x": -12,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "DesignVlan",
-                "node_id": "21ab7cb4-37cd-4410-87ed-7f299e3daf99",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": -614,
-                "y": -425,
                 "z": 1
             },
             {
