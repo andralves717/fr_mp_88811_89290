@@ -1,4 +1,4 @@
-# This the configuration for OldBuilding
+# This the configuration for OldB
 #
 # Uncomment the following line to enable DHCP
 # dhcp
@@ -6,4 +6,4 @@
 # ip 192.168.1.1 255.0.0.0
 #
 
-set pcname OldBuilding
+set pcname OldB

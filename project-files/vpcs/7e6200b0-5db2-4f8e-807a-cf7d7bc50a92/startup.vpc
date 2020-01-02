@@ -1,4 +1,4 @@
-# This the configuration for MarketingVlan
+# This the configuration for MktPri
 #
 # Uncomment the following line to enable DHCP
 # dhcp
@@ -6,4 +6,4 @@
 ip 10.110.0.3 255.255.255.0 10.110.0.1 
 #
 
-set pcname MarketingVlan
+set pcname MktPri
