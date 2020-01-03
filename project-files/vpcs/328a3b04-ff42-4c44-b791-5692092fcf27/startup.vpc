@@ -3,7 +3,7 @@
 # Uncomment the following line to enable DHCP
 # dhcp
 # or the line below to manually setup an IP address and subnet mask
-ip 200.111.190.195/28 200.111.190.193
+ip 200.111.190.195 255.255.255.240 200.111.190.193
 ip 2001:82:0:3::3/64 2001:82:0:3::1
 #
 
