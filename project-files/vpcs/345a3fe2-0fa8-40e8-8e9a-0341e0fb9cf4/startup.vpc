@@ -3,7 +3,9 @@
 # Uncomment the following line to enable DHCP
 # dhcp
 # or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
 #
+
+ip 200.111.190.67/26 200.111.190.65
+ip 2001:82:0:1::4/64 2001:82:0:1::1
 
 set pcname DMZPub
