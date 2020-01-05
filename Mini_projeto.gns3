@@ -947,6 +947,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "957c0a4c-977e-45f5-914f-9ad1b0e7e935",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e7",
+                            "x": 35,
+                            "y": 55
+                        },
+                        "node_id": "61321168-344a-48bb-9fc7-fb3b7310577b",
+                        "port_number": 7
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 64,
+                            "y": 15
+                        },
+                        "node_id": "37aa0b09-66bc-4c85-ac7f-768f8b38d093",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -1272,10 +1303,11 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet7",
                             "port_number": 7,
                             "type": "access",
-                            "vlan": 1
+                            "vlan": 2
                         }
                     ]
                 },
@@ -1769,7 +1801,7 @@
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
                 "x": -482,
-                "y": 270,
+                "y": 195,
                 "z": 1
             },
             {
@@ -2315,7 +2347,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5014,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2341,11 +2373,40 @@
                 "x": 417,
                 "y": -404,
                 "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5016,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MkDHCP",
+                    "x": -2,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "MkDHCP",
+                "node_id": "37aa0b09-66bc-4c85-ac7f-768f8b38d093",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": -482,
+                "y": 345,
+                "z": 1
             }
         ]
     },
     "type": "topology",
     "variables": null,
     "version": "2.2.3",
-    "zoom": 82
+    "zoom": 100
 }
