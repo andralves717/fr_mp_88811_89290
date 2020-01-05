@@ -816,7 +816,7 @@
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e4",
                             "x": 28,
-                            "y": -97
+                            "y": -36
                         },
                         "node_id": "61321168-344a-48bb-9fc7-fb3b7310577b",
                         "port_number": 4
@@ -913,6 +913,37 @@
                         },
                         "node_id": "d8006523-6882-4985-ba9a-e76088c57dda",
                         "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "fc08ccf9-a391-4aa6-a893-08bdb9287e09",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 25,
+                            "y": 68
+                        },
+                        "node_id": "91ddbbb1-71c0-47bb-b1ee-42762240d716",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": 42,
+                            "y": -23
+                        },
+                        "node_id": "f36d1764-a566-4b5c-8998-0baf6f939d4c",
+                        "port_number": 2
                     }
                 ],
                 "suspend": false
@@ -2280,6 +2311,35 @@
                 "width": 65,
                 "x": 192,
                 "y": 345,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "OldB2",
+                    "x": 6,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "OldB2",
+                "node_id": "91ddbbb1-71c0-47bb-b1ee-42762240d716",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": 417,
+                "y": -404,
                 "z": 1
             }
         ]

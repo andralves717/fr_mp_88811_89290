@@ -1,0 +1,2 @@
+set pcname OldB2
+ip dhcp -r
