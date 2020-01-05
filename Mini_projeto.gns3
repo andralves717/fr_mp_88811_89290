@@ -1601,7 +1601,7 @@
                     "dynamips_id": 6,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "0x60a6a1e0",
+                    "idlepc": "0x0",
                     "idlesleep": 30,
                     "image": "c3725-advipservicesk9-mz.124-21.image",
                     "image_md5sum": "c336fa915d7ecd3b821c5e562c4326ab",
