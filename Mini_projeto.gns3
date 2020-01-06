@@ -629,8 +629,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": 53,
-                            "y": 51
+                            "x": 398,
+                            "y": 304
                         },
                         "node_id": "499a89cd-3efb-4166-a6d8-fe99a7a37a63",
                         "port_number": 0
@@ -1690,7 +1690,7 @@
                     "dynamips_id": 7,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "0x60a6a1e0",
+                    "idlepc": "0x0",
                     "idlesleep": 30,
                     "image": "c3725-advipservicesk9-mz.124-21.image",
                     "image_md5sum": "c336fa915d7ecd3b821c5e562c4326ab",
