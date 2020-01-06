@@ -3,12 +3,12 @@
 
 Deverão adicionar a vlan database da primeira vez.
 Nos SWL3C1 e C2:
-'''
+```
 vlan database
 vlan 2
 ...
 vlan 7
-'''
+```
 
 A VM encontra-se aqui:
 https://drive.google.com/file/d/1LBELY4dQ3sO32_MsLOEmk6MOobVvWEyH/view?usp=sharing
