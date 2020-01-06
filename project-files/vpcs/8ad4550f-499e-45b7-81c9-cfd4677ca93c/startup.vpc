@@ -3,8 +3,8 @@
 # Uncomment the following line to enable DHCP
 # dhcp
 # or the line below to manually setup an IP address and subnet mask
-ip 10.110.5.3/24 10.110.5.1
-ip 2001:82:0:5::3/64 2001:82:0:5::1
+ip 10.110.5.3/24 10.110.5.2
+ip 2001:82:0:5::3/64 2001:82:0:5::2
 #
 
 set pcname Research
