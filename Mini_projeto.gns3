@@ -629,8 +629,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": 398,
-                            "y": 304
+                            "x": 19,
+                            "y": 52
                         },
                         "node_id": "499a89cd-3efb-4166-a6d8-fe99a7a37a63",
                         "port_number": 0
@@ -975,6 +975,37 @@
                         },
                         "node_id": "37aa0b09-66bc-4c85-ac7f-768f8b38d093",
                         "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "b2a47be7-dce8-419c-ba68-9464b939f67d",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -7,
+                            "y": 34
+                        },
+                        "node_id": "e325002e-adab-4ff8-83fd-e1a052a3c52b",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e3",
+                            "x": 75,
+                            "y": 10
+                        },
+                        "node_id": "7a809e95-25be-4735-8c32-9e4bc768ccf2",
+                        "port_number": 3
                     }
                 ],
                 "suspend": false
@@ -2102,10 +2133,11 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet3",
                             "port_number": 3,
                             "type": "access",
-                            "vlan": 1
+                            "vlan": 6
                         },
                         {
                             "name": "Ethernet4",
@@ -2401,6 +2433,50 @@
                 "width": 65,
                 "x": -482,
                 "y": 345,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 1,
+                        "adapter_type": "Paravirtualized Network (virtio-net)"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "LabComServerFR1920-1",
+                    "x": -59,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "LabComServerFR1920-1",
+                "node_id": "e325002e-adab-4ff8-83fd-e1a052a3c52b",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 3,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 512,
+                    "usage": "",
+                    "use_any_adapter": true,
+                    "vmname": "LabComServerFR1920"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "91ef739e-be0a-4251-9d47-e0d4638b2654",
+                "width": 65,
+                "x": 503,
+                "y": 164,
                 "z": 1
             }
         ]
