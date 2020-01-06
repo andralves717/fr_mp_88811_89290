@@ -214,6 +214,15 @@
                 "x": 106,
                 "y": -478,
                 "z": 2
+            },
+            {
+                "drawing_id": "023a9326-1471-4861-ad07-1bce08222fc2",
+                "locked": false,
+                "rotation": 0,
+                "svg": "3395e6f1e1c05dcf0c220642a56f8f55.png",
+                "x": -375,
+                "y": -300,
+                "z": 0
             }
         ],
         "links": [
@@ -2683,5 +2692,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.3",
-    "zoom": 56
+    "zoom": 71
 }
